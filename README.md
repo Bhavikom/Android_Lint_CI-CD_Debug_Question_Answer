@@ -66,9 +66,16 @@
     <issue id="someText" severity="ignore" />
   </lint>
   
-  * 5. Run inspections manually:
+  * 5.Run inspections manually:
 
   To manually run configured lint and other IDE inspections, select Code > Inspect Code. The results of the inspection appear in the Inspection Results window.
+  
+  * 6.Run lint from the command line
+
+  If you're using Android Studio or Gradle, use the Gradle wrapper to invoke the lint task for your project by entering one of the following 
+  commands from the root directory of your project:
+  
+  - gradlew lint
 
   
   
