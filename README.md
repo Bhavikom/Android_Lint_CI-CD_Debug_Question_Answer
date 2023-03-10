@@ -98,9 +98,7 @@ You can configure lint by adding a lintOptions section in the build.gradle file:
 
 
 android {
-
    lintOptions {
-   
          // set to true to turn off analysis progress reporting by lint
          quiet true
          // if true, stop the gradle build if errors are found
@@ -173,9 +171,7 @@ android {
          // problem. However, this leads to quite a bit of extra computation; a library is
          // analyzed repeatedly, for each module that it is used in.
          checkDependencies false
-         
     }
-    
 }
 
  
