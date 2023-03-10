@@ -14,20 +14,33 @@
   
   * 2.Lint removal may be broken down into three steps:
 
-     1.Making a lint.xml file: 
+  1.Making a lint.xml file: 
      
-     In the lint.xml file, you may modify the Lint checks. You can write the checks you want to include in this file and disregard the checks 
-     you don’t want to include. For example, if you wish to check for unused variables but not for naming problems, you may do so in the lint.xml file. 
-     Aside from that, you may manually configure the Lint checks. In the following section of this article, we will look at how to perform manual lint checks.
+  In the lint.xml file, you may modify the Lint checks. You can write the checks you want to include in this file and disregard the checks 
+  you don’t want to include. For example, if you wish to check for unused variables but not for naming problems, you may do so in the lint.xml file. 
+  Aside from that, you may manually configure the Lint checks. In the following section of this article, we will look at how to perform manual lint checks.
      
-     2.Lint Inspection: 
+  2.Lint Inspection: 
      
-     The next step is to choose the source files that will be subjected to the Lint inspection. It may be your project’s.java file, .kt file, 
-     or any XML file.
+  The next step is to choose the source files that will be subjected to the Lint inspection. It may be your project’s.java file, .kt file, 
+  or any XML file.
 
-     3.The Lint Remover: 
+  3.The Lint Remover: 
      
-     Finally, the lint tool examines the source and lint.xml files for structural code issues and, if any, suggests 
-     code changes. It is recommended that we apply the lint recommendation before releasing our program.
+  Finally, the lint tool examines the source and lint.xml files for structural code issues and, if any, suggests 
+  code changes. It is recommended that we apply the lint recommendation before releasing our program.
+  
+  * 3.When Should You Use Lint?
+
+  If you wish to publish your app on the Play Store or any other app store, it must be error-free. You must conduct a great deal of manual 
+  testing on your app for this purpose. 
+
+  Lint will detect the issues and propose solutions if you check each and every file in your code for faults. Errors or warnings 
+  can be of the following types:
+
+  Variables that have not been utilized
+  Unjustifiable exceptions
+  Imports that aren’t needed for the project, and much more
+  So, before you publish your app, use Lint to thoroughly check your code.
   
 
