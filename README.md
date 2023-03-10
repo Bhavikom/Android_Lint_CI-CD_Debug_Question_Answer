@@ -177,6 +177,20 @@ android {
     }
 }
 
+**Q.4. What is static code analysis ?**
+
+Static code analysis is a practice that allows your team to automatically detect potential bugs, security issues, and, more generally, 
+defects in a software's codebase. Thus, we can view static analysis as an additional automated code review process.
+
+The code review process is probably the better way to improve the quality of the code. During a code review, a pair of programmers read 
+the code with the precise goal to improve it and to spot dangerous practices from both maintainability and security perspectives. 
+
+An excellent way to increase the frequency of code reviews is to include static code analysis in the delivery pipeline.
+
+Basically, Static Code Analysis is the analysis of computer software, which is performed without actually executing programs, in contrast with dynamic analysis that is analysis performed on programs while they are executing. It involves the detection of vulnerabilities and functional errors in deployed or soon-to-be deployed software. Furthermore, Static Code Analysis is performed before the beginning of software testing phase.
+
+In short, this method of analysis addresses weaknesses in source code, which might lead to security flaws and bugs. Besides, this could be achieved through manual code reviews; however, using automated tools is much more effective. Recently, many software companies are requiring projects to pass Static Code Analysis, in addition to doing code reviews and unit testing in the build process. Therefore, learning about Static Code Analysis is a key factor in having an Android application with high quality codes.
+
  
  
 
