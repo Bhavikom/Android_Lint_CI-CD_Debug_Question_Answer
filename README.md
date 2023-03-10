@@ -76,6 +76,21 @@
   commands from the root directory of your project:
   
   gradlew lint
+  
+**Q.2. What is Baseline in Lint ?**
+
+ If you are working on a large project and want to identify future mistakes that may arise while adding additional codes to your project, 
+ you can set a baseline to your project and the lint will create the errors that happened after that baseline. As a result, lint will 
+ disregard prior code problems and only alert you about new lines of code introduced after the baseline.
+
+ To include a baseline in your project, add the following line to the build.gradle file:
+
+ android {
+   lintOptions {
+     baseline file("lint-geeksforgeeks-example.xml")
+   }
+ }
+ This will generate a lint-baseline.xml file, which will serve as a baseline for your project. To add another baseline, remove the file and lint once more.
 
   
   
