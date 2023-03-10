@@ -1,8 +1,8 @@
 # Android_Lint_CI-CD_Debug_Question_Answer
 
-1. Lint and its Usage in Android Studio
+**1: Lint and its Usage in Android Studio ?**
 
-*What exactly is lint?
+  * 1.What exactly is lint?
 
   Lint is a code scanning tool supplied by Android Studio that identifies, suggests, and corrects incorrect or dangerous code in a project.
   
