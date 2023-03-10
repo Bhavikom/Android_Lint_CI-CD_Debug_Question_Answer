@@ -1,6 +1,6 @@
 # Android_Lint_CI-CD_Debug_Question_Answer
 
-**1: Lint and its Usage in Android Studio ?**
+**Q.1. Lint and its Usage in Android Studio ?**
 
   * 1.What exactly is lint?
 
@@ -42,5 +42,28 @@
   Unjustifiable exceptions
   Imports that aren’t needed for the project, and much more
   So, before you publish your app, use Lint to thoroughly check your code.
+  
+  * 4.Lint Configuration
+
+  To utilize Lint or just run inspections in your project, add Lint inspection to the lint.xml file or manually pick the list of issues 
+  to be configured by Lint in your project using Android Studio.
+  
+  Add the list of issues to be configured in the lint.xml file to define manual inspections in your app. If you create a new lint.xml file,
+  place it in the root directory of your Android project.
+  
+  Here’s an example of a lint.xml file:
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <lint>
+    <issue id="GeeksIconMissing" severity="error" />
+    <issue id="OldDimens">
+        <ignore path="res/layout/merger.xml" />
+        <ignore path="res/layout-xlarge/merger.xml" />
+    </issue>
+    <issue id="HellOWorld">
+        <ignore path="res/layout/main.xml" />
+    </issue>
+    <issue id="someText" severity="ignore" />
+  </lint>
   
 
