@@ -75,7 +75,7 @@
   If you're using Android Studio or Gradle, use the Gradle wrapper to invoke the lint task for your project by entering one of the following 
   commands from the root directory of your project:
   
-  - gradlew lint
+  gradlew lint
 
   
   
