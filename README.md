@@ -98,6 +98,7 @@ You can configure lint by adding a lintOptions section in the build.gradle file:
 
 
 android {
+
    lintOptions {
    
          // set to true to turn off analysis progress reporting by lint
