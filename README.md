@@ -66,4 +66,10 @@
     <issue id="someText" severity="ignore" />
   </lint>
   
+  * 5. Run inspections manually:
+
+  To manually run configured lint and other IDE inspections, select Code > Inspect Code. The results of the inspection appear in the Inspection Results window.
+
+  
+  
 
